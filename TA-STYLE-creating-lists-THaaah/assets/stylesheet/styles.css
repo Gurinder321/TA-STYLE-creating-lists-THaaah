@@ -1,0 +1,223 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: white;
+  font-family: "Karla", sans-serif;
+  /* font-family: "DM Serif Display", serif; */
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header {
+  height: 15px;
+  width: 100%;
+  background-color: #f86115;
+}
+.nav {
+  width: 40%;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+.main {
+  background-color: #d4cea6;
+}
+.col-3 {
+  height: 400px;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+.col-3-1,
+.col-3-2,
+.col-3-3 {
+  height: 350px;
+  width: 250px;
+  background-color: #005a79;
+  color: #d4cea6;
+  box-shadow: 5px 5px 20px black;
+}
+.col-3-1 ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding: 15px;
+  line-height: 1.6;
+}
+
+.col-3-2 ul {
+  list-style-type: disc;
+  list-style-position: inside;
+  padding: 15px;
+  line-height: 1.3;
+}
+.col-3-2 ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  padding: 15px;
+  line-height: 1.3;
+}
+.col-3-3 ul {
+  list-style-type: none;
+  list-style-image: url(../icons/tick.png);
+  list-style-position: inside;
+  padding: 15px;
+  line-height: 2.3;
+}
+.article-1 dd {
+  font-size: 25px;
+  padding: 30px;
+}
+.article-1 dt {
+  font-size: 16px;
+  line-height: 1.3;
+  padding-left: 50px;
+  color: rgb(63, 63, 63);
+}
+.footer {
+  padding: 30px;
+  background-color: #242c22;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.menu {
+  width: 50%;
+}
+br {
+  padding: 20px;
+}
